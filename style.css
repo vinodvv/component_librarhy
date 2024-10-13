@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  /* header */
+  .header {
+    width: 100%;
+    height: 2rem;
+    max-height: auto;
+    word-wrap: break-word;
+    background: yellow;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  .header-logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: black;
+  }
+  
+  .header__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .header__list-item {
+    list-style: none;
+    margin: 0.5rem;
+    cursor: pointer;
+    color: black;
+  }
+  
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 2rem;
+    max-height: auto;
+    background: yellow;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.footer__list-item {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* horizontal cards */
+.horizontal__cards {
+  height: auto;
+  width: 10rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 0.4rem;
+  background-color: blue;
+  border-radius: 0.3rem;
+}
+.horizontal__cards-image {
+  height: 6rem;
+  width: 10rem;
+  border-radius: 0.3rem;
+}
+
+.horizontal__cards-title {
+  margin: 0.2rem;
+  font-size: 1.5rem;
+}
+.horizontal__cards-subtitle {
+  margin: 0.2rem;
+  font-size: 1.2rem;
+}
+.horizontal__cards-paragraph {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.horizontal__cards-btn {
+  border: none;
+  height: 2rem;
+  width: 10rem;
+  background-color: red;
+  color: white;
+  font-weight: 800;
+  border-radius: 0.4rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  color: black;
+}
+
